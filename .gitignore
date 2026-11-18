@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local environment files
+.env
+.env.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Archives and temporary files
+*.zip
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Old Streamlit application (kept locally)
+/streamlit_app/
+/main.py
